@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-color: beige;
+}
+header{
+    background-image: url(crop.jpeg);
+    width: 1400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family:Century Gothic;
+    position: relative;
+    size: cover;
+    background-attachment: fixed;
+
+}
+nav a{
+background-color: aliceblue;
+    float: left;
+    color:black;
+    padding:30px;
+    text-decoration: none;
+width: 1300px;
+display: inline;
+}
+nav a:hover{
+    background-color:white;
+    color:orangered;
+}
+section div p{
+    padding: 20px;
+margin: 5px;
+font-family:'Arial Narrow';
+text-align: justify;
+color:black;
+
+}
+section div h2{
+    overflow: hidden;
+    padding:10px; 
+margin: 5px;
+
+}
+div.gaillery{
+    margin: 5px;
+    border: 1px solid black;
+    float:left;
+
+}
+input[type=text],select,textarea{
+    width: 99%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: red;
+    color: white;
+    padding: 12px, 20px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+    overflow: hidden;
+    color: white;
+
+}
